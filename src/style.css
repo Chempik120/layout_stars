@@ -3,13 +3,17 @@
   display: flex;
 }
 
+.stars:not(:last-child) {
+  margin-bottom: 0;
+}
+
 .stars__star {
-  width: 13px;
-  height: 13px;
-  margin: 1.9px 6.5px 1.9px 0;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  background-size: 13px 13px;
+  background-position: center;
 }
 
 .stars__star:last-child {
